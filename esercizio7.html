@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>FORM</title>
+</head>
+
+<body>
+  <div>
+    <form action=# >
+<div>
+    <label for="email">Email</label>
+    <input type="text" id="mail" name="email">
+</div>
+
+<div>
+    <label for="password">Password</label>
+    <input type="text" id="passw" name="pass">
+</div>
+<div>
+    <label for="name">Nome e Cognome</label>
+    <input type="text" id="name" name="name">
+</div>
+<div>
+    <label for="dob">Data di Nascita</label>
+	<input type="date" data-prop="custom" id="dob" name="date"/>
+</div>
+<div>
+<label for="phone number">Numero di telefono</label>
+<input type="text" maxlength="10" minlength="9">
+</div>
+<div>  
+<label for="allplans">Piani Abbonamento</label>
+<fieldset>
+    <legend>Piani Abbonamento</legend>
+    <ul>
+        <li>
+            <label for="freeplan">FREE 0€/Mensili</label>
+            <input type="radio" id="plan_1" name="allplans" value="0">
+        </li>
+        <li>
+            <label for="nextplan">NEXT 1.99€/Mensili</label>
+            <input type="radio" id="plan_2" name="allplans" value="1.99">
+        <li>
+            <label for="proplan">PRO 5.99€/Mensili</label>
+            <input type="radio" id="plan_3" name="allplans" value="5.99">
+        </li>
+        <li>
+            <label for="enterplan">ENTERPRISE 11.99€/Mensili</label>
+            <input type="radio" id="plan_4" name="allplans" value="11.99">
+        </li>
+    </ul>
+</fieldset>
+
+</div>
+<div>
+	<input id="checkbox" type="checkbox" checked/>
+	<label for="checkbox">Aggiungi tutte le Opzioni PRO per 15.00€/lifetime</label>
+</div>
+<div>
+    <label for="cc">Numero Carta</label>
+    <input id="creditcard" name="cc" type="text"/>
+    <label for="cvc">CVC</label>
+    <input id="pin" name="cvc" type="text"/>
+    <label for="exp">Scadenza</label>
+    <input id="datascadenza" name="exp" type="date"/>
+    <label for="address">Indirizzo di fatturazione</label>
+    <input type="text" id="address" name="address"/>
+</div>
+
+<button type="submit">Registrati</button>
+
+</form> 
+
+</body>
+
+</html>
